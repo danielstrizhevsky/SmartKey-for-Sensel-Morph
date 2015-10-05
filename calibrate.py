@@ -1,31 +1,5 @@
 #!/usr/bin/env python
 
-##########################################################################
-# Copyright 2015 Sensel, Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-##########################################################################
-
-#
-#  Read Contacts
-#  by Aaron Zarraga - Sensel, Inc
-#
-#  This opens a Sensel sensor, reads contact data, and prints the data to the console.
-#
-#  Note: We have to use \r\n explicitly for print endings because the keyboard reading code
-#        needs to set the terminal to "raw" mode.
-##
-
 from pylab import *
 from keyboard_reader import *
 import sensel
